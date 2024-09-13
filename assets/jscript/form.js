@@ -23,6 +23,12 @@ formEl.addEventListener('submit', function(event) {
     console.log(nameInput1);
     console.log(descriptionInput1);
 
+    // Validation: Check if the fields are not empty
+    if (!nameInput1 || !descriptionInput1) {
+        document.getElementById('error').innerHTML = 'Please complete all fields';
+        return;
+    }
+
     // // Create a new workout object
     const newWorkout = {
         name: nameInput1,
@@ -54,11 +60,7 @@ formEl.addEventListener('submit', function(event) {
 //     console.log("Name", name);
 //     console.log("description", description);
 
-    // // Validation: Check if the fields are not empty
-    // if (!workoutName || !description) {
-    //     errorElement.textContent = 'Please complete all fields';
-    //     return;
-    // }
+
 
     // // Update the workout object
     // newWorkout.name = workoutName;
