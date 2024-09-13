@@ -7,15 +7,14 @@
 // Initialize workouts from localStorage
 console.log(JSON.parse(localStorage.getItem('workouts')));
 
-// function init() {
-//     const storedWorkouts = JSON.parse(localStorage.getItem('workouts'));
-//     if (storedWorkouts !== null) {
-//       workouts = storedWorkouts;
-//     }
+function init() {
+    const storedWorkouts = JSON.parse(localStorage.getItem('workouts'));
+    if (storedWorkouts !== null) {
+      workouts = storedWorkouts;
+    }
+}
 //     // renderWorkouts();
 //   }
 
-// console.log(stor)
-
-// // INITIALIZATION
-// init();
+// INITIALIZATION
+init();
