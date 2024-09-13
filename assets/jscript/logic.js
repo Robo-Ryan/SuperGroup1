@@ -1,3 +1,6 @@
+const workoutsContainer = document.querySelector('#allWorkouts');
+const todaysWorkoutsContainer = document.querySelector('#todaysWorkouts');
+
 
 // // This function renders blog posts to the page
 function renderWorkouts() {
@@ -10,10 +13,35 @@ function renderWorkouts() {
     workoutsContainer.appendChild(noWorkoutsMessage);
     return;
   }
-}
+    }
+    
+// workouts.forEach((workout, index) => {
+//     const divElement = document.createElement('div');
+//     const TitleElement = document.createElement('h3');
+//     TitleElement.textContent = post.title;
+
+    
+//     const postContentElement = document.createElement('p');
+//     postContentElement.textContent = post.content;
+//     blockquoteElement.appendChild(postContentElement);
+
+//     const footerElement = document.createElement('footer');
+//     const footerTextElement = document.createElement('p');
+//     footerTextElement.innerHTML = `Posted by: <strong>${post.username}</strong>`;
+//     footerElement.appendChild(footerTextElement);
+
+//     articleElement.appendChild(postTitleElement);
+//     articleElement.appendChild(blockquoteElement);
+//     articleElement.appendChild(footerElement);
+//     sectionElement.appendChild(articleElement);
+
+//     blogPostsContainer.appendChild(sectionElement);
+//   });
+//   //
+// }
 
 // Initialize workouts from localStorage
-console.log(JSON.parse(localStorage.getItem('workouts')));
+
 
 function init() {
     const storedWorkouts = JSON.parse(localStorage.getItem('workouts'));
@@ -22,6 +50,7 @@ function init() {
     }
 renderWorkouts();
 }
+
 
 // INITIALIZATION
 init();
