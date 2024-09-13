@@ -10,8 +10,6 @@ let newWorkout = {
     content: ''
 }
 
-let workouts = [];
-
 //USER INTERACTIONS
 
 // When the user submits the form
@@ -31,16 +29,17 @@ formEl.addEventListener('submit', function(event) {
         description: descriptionInput1,
     };
     console.log(newWorkout);
+
+    // Get existing workouts from localStorage or create a new array if none exist
+    const workouts = JSON.parse(localStorage.getItem('workouts')) || [];
+
+    // Add the new workout to the array
+    workouts.push(newWorkout);
+
+    // Store the updated workouts array back in localStorage
+    localStorage.setItem('workouts', JSON.stringify(workouts));
+    console.log(workouts)
 });
-//     // Get existing workouts from localStorage or create a new array if none exist
-//     const workouts = JSON.parse(localStorage.getItem('workouts')) || [];
-
-//     // Add the new workout to the array
-//     workouts.push(newWorkout);
-
-//     // Store the updated workouts array back in localStorage
-//     localStorage.setItem('workouts', JSON.stringify(workouts));
-
 //     // Clear the form inputs
 //     document.getElementById('workoutForm').reset();
 
