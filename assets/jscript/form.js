@@ -46,6 +46,9 @@ formEl.addEventListener('submit', function(event) {
     localStorage.setItem('workouts', JSON.stringify(workouts));
 
     alert('Workout saved successfully!');
+    // Clear the form fields
+    nameInput.value = '';
+    descriptionInput.value = '';
 });
 
 // formEl.addEventListener('submit', function(event) {
