@@ -38,13 +38,9 @@ formEl.addEventListener('submit', function(event) {
 
     // Store the updated workouts array back in localStorage
     localStorage.setItem('workouts', JSON.stringify(workouts));
-    console.log(workouts)
-});
-//     // Clear the form inputs
-//     document.getElementById('workoutForm').reset();
 
-//     alert('Workout saved successfully!');
-// });
+    alert('Workout saved successfully!');
+});
 
 // formEl.addEventListener('submit', function(event) {
 //     event.preventDefault();
