@@ -75,3 +75,7 @@ nav ul li a {
     text-align: center;
     margin-top: 20px;
 }
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a custom shadow on hover */
+}
