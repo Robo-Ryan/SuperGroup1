@@ -15,7 +15,6 @@ function renderWorkouts() {
   }
     }
     
-
     
 workouts.forEach((workout, index) => {
     //CREATE elements
