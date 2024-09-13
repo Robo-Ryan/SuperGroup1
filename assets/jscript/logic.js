@@ -32,7 +32,12 @@ workouts.forEach((workout, index) => {
     descriptionElement.textContent = `${workout.description}`;
     descriptionElement.classList.add('card-text');    
 
+    //PLACE
+    cardElement.appendChild(titleElement);
+    cardElement.appendChild(descriptionElement);
+    workoutsContainer.appendChild(cardElement);
 
+  });
 
 
 
