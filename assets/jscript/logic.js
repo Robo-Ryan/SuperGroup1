@@ -1,6 +1,6 @@
 const workoutsContainer = document.querySelector('#allWorkouts');
 const todaysWorkoutsContainer = document.querySelector('#todaysWorkouts');
-
+const workouts = JSON.parse(localStorage.getItem('workouts'))
 
 // // This function renders blog posts to the page
 function renderWorkouts() {
@@ -15,30 +15,26 @@ function renderWorkouts() {
   }
     }
     
-// workouts.forEach((workout, index) => {
-//     const divElement = document.createElement('div');
-//     const TitleElement = document.createElement('h3');
-//     TitleElement.textContent = post.title;
 
     
-//     const postContentElement = document.createElement('p');
-//     postContentElement.textContent = post.content;
-//     blockquoteElement.appendChild(postContentElement);
+workouts.forEach((workout, index) => {
+    //CREATE elements
+    const cardElement = document.createElement('div');
+    const titleElement = document.createElement('h3');
+    const descriptionElement = document.createElement('p');
+    
+    //BUILD text content, and classess
+    cardElement.classList.add('col-md-4', 'workout-card', 'card', 'p-3','mb-4')
+    
+    titleElement.textContent= `${workout.name}`;
+    titleElement.classList.add('card-title');
 
-//     const footerElement = document.createElement('footer');
-//     const footerTextElement = document.createElement('p');
-//     footerTextElement.innerHTML = `Posted by: <strong>${post.username}</strong>`;
-//     footerElement.appendChild(footerTextElement);
+    descriptionElement.textContent = `${workout.description}`;
+    descriptionElement.classList.add('card-text');    
 
-//     articleElement.appendChild(postTitleElement);
-//     articleElement.appendChild(blockquoteElement);
-//     articleElement.appendChild(footerElement);
-//     sectionElement.appendChild(articleElement);
 
-//     blogPostsContainer.appendChild(sectionElement);
-//   });
-//   //
-// }
+
+
 
 // Initialize workouts from localStorage
 
