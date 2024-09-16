@@ -19,3 +19,12 @@ To get started with the Workout To-Do List, follow these instructions:
    cd your-repository
 3. Install dependencies:
    There are no dependencies to install for this project, simply open the `index.html` file in your IDE.
+
+
+## Usage
+
+To use the Workout To-Do List, follow these steps:
+
+1. Go to: https://robo-ryan.github.io/SuperGroup1/
+2. Click 'Add a Workout' to include new workouts to your list.
+3. Save your common workouts to quickly refer back during your gym sessions.
