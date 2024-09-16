@@ -28,3 +28,13 @@ To use the Workout To-Do List, follow these steps:
 1. Go to: https://robo-ryan.github.io/SuperGroup1/
 2. Click 'Add a Workout' to include new workouts to your list.
 3. Save your common workouts to quickly refer back during your gym sessions.
+
+
+## Contributing
+
+Contributions to the Workout To-Do List are welcome! Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch for each feature or improvement.
+3. Send a pull request from each feature branch to the main branch for review.
+ 
