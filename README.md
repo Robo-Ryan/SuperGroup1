@@ -1,30 +1,21 @@
-# SuperGroup1
-# Project Name
+# SuperGroup1 Workout To-Do List
 
-Brief description of the project.
+This project creates a workout to-do list application that helps gym-goers remember their workouts, including sets and reps, to enhance their gym experience by minimizing the stress of recalling workout plans.
 
 ## Table of Contents
 
-- [SuperGroup1](#supergroup1)
-- [Project Name](#project-name)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-Instructions on how to install and set up the project.
+To get started with the Workout To-Do List, follow these instructions:
 
-## Usage
-
-Instructions on how to use the project or any relevant examples.
-
-## Contributing
-
-Guidelines on how to contribute to the project.
-
-## License
-
-Information about the project's license.
+1. Clone the repository:
+   git clone https://github.com/your-username/your-repository.git
+2. Navigate to the project directory:
+   cd your-repository
+3. Install dependencies:
+   There are no dependencies to install for this project, simply open the `index.html` file in your IDE.
