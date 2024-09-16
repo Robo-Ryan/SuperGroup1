@@ -29,7 +29,7 @@ formEl.addEventListener('submit', function(event) {
         return;
     }
 
-    // // Create a new workout object
+    // Create a new workout object   
     const newWorkout = {
         name: nameInput1,
         description: descriptionInput1,
