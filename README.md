@@ -2,6 +2,9 @@
 
 This project creates a workout to-do list application that helps gym-goers remember their workouts, including sets and reps, to enhance their gym experience by minimizing the stress of recalling workout plans.
 
+
+![Workout To-Do List Screenshot](assets/images/ReadMeScreenshot.png)
+
 ## Table of Contents
 
 - [Installation](#installation)

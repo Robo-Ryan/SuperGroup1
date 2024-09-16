@@ -50,4 +50,5 @@ formEl.addEventListener('submit', function(event) {
     nameInput.value = '';
     descriptionInput.value = '';
     window.location.reload();
+
 });
