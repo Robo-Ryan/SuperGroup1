@@ -38,3 +38,6 @@ Contributions to the Workout To-Do List are welcome! Here's how you can contribu
 2. Create a new branch for each feature or improvement.
 3. Send a pull request from each feature branch to the main branch for review.
  
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
