@@ -49,37 +49,5 @@ formEl.addEventListener('submit', function(event) {
     // Clear the form fields
     nameInput.value = '';
     descriptionInput.value = '';
+    window.location.reload();
 });
-
-// formEl.addEventListener('submit', function(event) {
-//     event.preventDefault();
-//     console.log('Form submit event triggered');
-    
-
-//     // Grab input values from the modal
-//     const name = nameInput.value.trim();
-//     const description = descriptionInput.value.trim();
-
-//     console.log("Name", name);
-//     console.log("description", description);
-
-
-
-    // // Update the workout object
-    // newWorkout.name = workoutName;
-    // newWorkout.description = description;
-
-    // // Log the new workout for testing
-    // console.log('New Workout:', newWorkout);
-
-    // // Reset the form fields after submission
-    // workoutNameInput.value = '';
-    // workoutDescription.value = '';
-    // errorElement.textContent = ''; // Clear error if it exists
-
-    // // Close the modal (Bootstrap will handle this automatically if using a button with data-bs-dismiss="modal")
-    // const modalElement = bootstrap.Modal.getInstance(modal);
-    // modalElement.hide();
-
-    // // Optional: Add the new workout to the workouts list dynamically (for now, console log)
-// });
